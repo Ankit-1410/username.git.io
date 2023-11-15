@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.main{
+    display: flex;
+   
+}
+
+
+.faculty{
+    margin-left: 35px;
+}
+
+.faculty h2, h3{
+    padding-bottom: 5px;
+}
+
+.faculty h3{
+    font-weight: 600;
+}
+
+/* for all tables */
+
+table {
+    font-size: 16px;
+    max-width: 850px;
+    font-weight: 600;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px gray;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 10px;
+    border-left: none;
+    border-right: none;
+}
+
+th {
+    background-color: #4C6BF1;
+    color: #fff;
+    font-weight: lighter;
+}
+
+tr:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+td:first-child,
+th:first-child {
+    border-left: 1px solid #ddd; 
+}
+
+td:last-child,
+th:last-child {
+    border-right: 1px solid #ddd; 
+}
+
+
+.nav-link{
+    text-decoration: none;
+}

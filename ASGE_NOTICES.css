@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* .table{
+    margin-top: 122px;
+    width: 255px;
+    height: 670px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+  
+    margin-left: 165px;
+    border-radius:8px;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+.table ul p{
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+padding-top: 16px;
+}
+.table ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+}
+.table ul a{
+
+font-size: 16px;
+color:#000000;
+
+text-align:left;
+vertical-align: middle;
+font: size 1rem;
+line-height:24px;
+border-style:hidden;
+width: 220px;
+height: 24px;
+
+border-top: 1px solid rgba(234,234,234,1);
+padding-top: 16px;
+padding-bottom: 16px;
+} */
+
+.Notices{
+    
+    padding-left: 1rem;
+}
+.Notices h2{
+    margin: 1rem;
+    font-size: 2rem;
+    color: #0C2695;
+}
+.notices_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 15px;
+}
+.notice_lists:nth-of-type(3){
+    grid-column: 3/3;
+}
+.table_and_notice{
+    display: flex
+}
+.notice_lists{
+    height: 113px;
+    width: 255px;
+    box-shadow: 1px 1px 4px rgb(100, 98, 98);
+    border-radius: 10px;
+    margin: 1rem;
+}
+.notice_lists .date{
+    font-size: 14px;
+    color: #0C2695;
+    font-weight: 500;
+    padding:0.9rem;
+    width: 207px;
+    height: 10px;
+    text-align: left;
+}
+.notice_lists p{
+font-size: 1rem;
+font-weight: 500;
+text-align: left;
+padding: 0.9rem;
+}
+.nav-link{
+    text-decoration: none;
+ 
+}
